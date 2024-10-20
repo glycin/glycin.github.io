@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* Light text */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #dbdbdb; /* Gold color for header */
+}
+
+h1 {
+    margin: 0;
+    color: #dbdbdb; /* Gold color for header */
+}
+
+h2 {
+    color: #dbdbdb; /* Gold color for subheadings */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+li {
+    background: #333333; /* Slightly lighter dark background for list items */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    color: #00bfff; /* Light blue for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-me-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.profile-image {
+    width: 150px; /* Adjust the width as necessary */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it a circle */
+    margin-right: 20px; /* Space between the image and the text */
+}
